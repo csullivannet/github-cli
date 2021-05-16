@@ -232,8 +232,8 @@ def main():
     if not filepath:
         print(filtered_prs)
     else:
-      with open(filepath, "w", encoding="utf8") as json_file:
-          json.dump(filtered_prs, json_file)
+        with open(filepath, "w", encoding="utf8") as json_file:
+            json.dump(filtered_prs, json_file)
 
 
 if __name__ == "__main__":
