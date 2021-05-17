@@ -111,9 +111,13 @@ class Session(object):
         return prs
 
 
+def get_now():
+    return datetime.datetime.utcnow()
+
+
 def time_difference(date):
     insertion_date = dateutil.parser.parse(date)
-    difference = pytz.utc.localize(datetime.datetime.utcnow()) - insertion_date
+    difference = pytz.utc.localize(get_now()) - insertion_date
     return difference
 
 

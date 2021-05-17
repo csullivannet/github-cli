@@ -10,6 +10,9 @@ pytz = "*"
 
 [dev-packages]
 black = "*"
+pytest = "*"
+requests-mock = "*"
+pytest-mock = "*"
 
 [requires]
 python_version = "3.9"
