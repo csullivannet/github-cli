@@ -230,7 +230,7 @@ def main():
                     filtered_prs.append(output(pr, verbose))
 
     if not filepath:
-        print(filtered_prs)
+        print(json.dumps(filtered_prs))
     else:
         with open(filepath, "w", encoding="utf8") as json_file:
             json.dump(filtered_prs, json_file)
