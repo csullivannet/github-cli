@@ -4,7 +4,7 @@ A simple CLI tool to interact with the GitHub API. Gets PRs from provided org
 and repos and optionally filters them for more precise output.
 
 <FOO>
-
+<BAR>
 Example usage:
 
 ```
